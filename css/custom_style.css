@@ -1,0 +1,1118 @@
+
+
+
+
+/*admin css start*/
+
+
+
+
+
+
+
+/*admin css end*/
+
+
+
+
+
+.admin_main_div{
+
+	margin-top: 30px;
+
+}
+
+
+
+.card{
+
+    max-width: 98%;
+
+    padding: 1em;
+
+
+
+}
+
+.card-title{
+
+	padding: 10px;
+
+	border-bottom: 1px solid gray;
+
+}
+
+
+
+.card-body{
+
+	padding: 10px;
+
+}
+
+
+
+.clr{
+
+	clear: both;
+
+	width: 100%;
+
+}
+
+.shadow_box{
+
+  box-shadow: 2px 2px 10px #6b6a6a;
+
+  padding: 15px;
+
+}
+
+
+
+sup{
+
+	color: red;
+
+}
+
+
+
+.mt-1{
+
+	margin-top: 1rem;
+
+}
+
+
+
+.mt-2{
+
+	margin-top: 2rem;
+
+}
+
+
+
+.mb-1{
+
+    margin-bottom: 1rem;
+
+}
+
+
+
+.mb-2{
+
+    margin-bottom: 2rem;
+
+
+
+}
+
+
+
+.user_main_div{
+
+  width: 100% ;
+
+	max-width: 100% !important;
+
+}
+
+
+
+.user_main_div p,.user_main_div h1,.user_main_div h2,.user_main_div h3,
+
+.user_main_div h4,.user_main_div h5,.user_main_div h6{
+
+  margin: 0 !important;
+
+}
+
+
+
+.user_main_div p{
+
+  font-size: 14px;
+
+}
+
+
+
+.uppercase {
+
+    line-height: 1.2;
+
+    text-transform: uppercase;
+
+}
+
+.text-red{
+
+  color: red;
+
+}
+
+
+
+h1:not(.site-title):before, h2:before {
+
+    background: transparent !important;
+
+}
+
+.h10{
+
+    height: 10px;
+
+}
+
+.h20{
+
+    height: 20px;
+
+}
+
+.h30{
+
+    height: 30px;
+
+}
+
+
+
+.width150{
+
+  width: 150px;
+
+}
+
+
+
+.divider {
+
+    height: 3px;
+
+    display: block;
+
+    background-color: rgba(0,0,0,.1);
+
+    margin: 1em 0 1em;
+
+
+
+    width: 100%;
+
+
+
+    max-width: 30px;
+
+
+
+    margin-left: auto;
+
+
+
+    margin-right: auto;
+
+
+
+}
+
+
+
+/*User Pages css*/
+
+
+
+.user_main_div, .user_main_div h1, .user_main_div h2, .user_main_div h3, .user_main_div h4, .user_main_div h5, .user_main_div h6, .user_main_div p, .user_main_div input, .user_main_div select, .user_main_div textarea, .user_main_div span, .user_main_div div,
+
+.user_main_div ul, .user_main_div li, .user_main_div p{
+
+
+
+	/*font-family: "Lato",sans-serif !important;*/
+
+  /*font-family: 'Sofia', cursive !important;*/
+
+  font-family: 'Maven Pro', sans-serif !important;
+
+
+
+}
+
+a{
+
+    text-decoration: none !important;
+
+}
+
+.btn-default{
+
+    background-color: transparent;
+
+}
+
+
+
+.clp{
+
+    color: #EC3D92;
+
+}
+
+
+
+.font-weight-bold{
+
+  font-weight: bold;
+
+}
+
+
+
+.float-left{
+
+  float: left;
+
+}
+
+
+
+.float-right{
+
+  float: right;
+
+}
+
+
+
+.text-right{
+
+  text-align: right;
+
+}
+
+.text-left{
+
+  text-align: left;
+
+}
+
+.text-center{
+
+  text-align: center;
+
+}
+
+
+
+.border-bottom{
+
+  border-bottom: 1px solid gray;
+
+}
+
+
+
+
+
+.admin_main_div .select2, .admin_main_div .select2 input{
+
+  width: 100% !important;
+
+}
+
+/*trips gallery css*/
+
+.nv_trips a {
+
+    color: #363636;
+
+}
+
+.nv_trips .btn {
+
+    background: transparent;
+
+    margin: 3px;
+
+    border: 1px solid #eaeaea;
+
+    border-radius: 0px;
+
+}
+
+.nv_trips .btn:hover {
+
+    background: #eaeaea;
+
+    color: black;
+
+}
+
+.nv_trips .tours {
+
+  display: flex;
+
+  padding: 0;
+
+}
+
+.nv_trips .tours .entry-title{
+
+    margin: 0;
+
+    font-size: 2rem;
+
+    margin-bottom: .5rem;
+
+    font-family: inherit;
+
+    font-weight: 500;
+
+    line-height: 1.2;
+
+    color: inherit;
+
+}
+
+.nv_trips .tours .trip_location{
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+}
+
+.nv_trips .tours .entry-title a{
+
+    text-decoration: none !important;
+
+    color: white !important;
+
+}
+
+.nv_trips .tours > .tourcard {
+
+  -webkit-transition: all .3s ease-in-out;
+
+  -moz-transition: all .3s ease-in-out;
+
+  -o-transition: all .3s ease-in-out;
+
+  transition: all .3s ease-in-out;
+
+  background: #fff;
+
+  box-shadow: 0 1px 3px rgba(0,0,0,.1);
+
+  flex: 0 1 360px;
+
+  margin: 15px;
+
+  padding: 0;
+
+}
+
+.nv_trips .tours > .tourcard:hover {
+
+  background: #fff;
+
+  box-shadow: 0 1px 5px rgba(0,0,0,.5);
+
+  cursor: pointer;
+
+}
+
+.nv_trips .tours > .tourcard figure {
+
+    margin: 0;
+
+    padding: 0;
+
+  position: relative;
+
+  flex: 1;
+
+  display: flex;
+
+  flex-flow: column nowrap;
+
+  justify-content: space-around;
+
+  width: 100%;
+
+}
+
+.nv_trips .tourpic {
+
+  background: #444;
+
+  position: relative;
+
+}
+
+.nv_trips .tourbtn {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+.nv_trips .tourbtn:after {
+
+    clear: both;
+
+}
+
+.nv_trips .tours > .tourcard figure .tourpic img {
+
+  -webkit-transition: all .3s ease-in-out;
+
+  -moz-transition: all .3s ease-in-out;
+
+  -o-transition: all .3s ease-in-out;
+
+  transition: all .3s ease-in-out;    
+
+  width: 100%;
+
+  height: auto;
+
+  margin: 0;
+
+  padding: 0;
+
+  opacity: .50;
+
+}
+
+.nv_trips .tours > .tourcard:hover figure .tourpic img {
+
+    opacity: 0.9;
+
+}
+
+.nv_trips .tours > .tourcard figure .tourpic .tourcat {
+
+  color: #fff;
+
+  font-size: .8em;
+
+  padding: 3px 5px;
+
+  position: absolute;
+
+  right: 15px;
+
+  text-transform: uppercase;
+
+  bottom: 15px;
+
+}
+
+.nv_trips .tours>.tourcard figure .tourpic .tourday {
+
+  text-transform: uppercase;
+
+  color: #fff;
+
+  font-size: .8em;
+
+  position: absolute;
+
+  left: 15px;
+
+  bottom: 15px;
+
+  padding: 3px 5px;
+
+}
+
+.nv_trips .tours > .tourcard figure .tourpic .tourday.hot {
+
+  background: #000;
+
+  background: red;
+
+  background: -webkit-linear-gradient(0deg,red,orange);
+
+  background: linear-gradient(90deg,red,orange);
+
+  background-size: 200% 200%;
+
+  -webkit-animation: hot 10s ease infinite;
+
+  -moz-animation: hot 10s ease infinite;
+
+  -o-animation: hot 10s ease infinite;
+
+  animation: hot 10s ease infinite;
+
+}
+
+.nv_trips .tours > .tourcard figure .tourbtn {
+
+  background: transparent;
+
+  display: flex;
+
+  width: 100%;
+
+  flex-flow: row wrap;
+
+  align-content: center;
+
+}
+
+.nv_trips .tours > .tourcard figure .tourbtn a {
+
+  flex: 1;
+
+    font-size: 20px;
+
+    color: #FF7E2D;
+
+    font-weight: bold;
+
+}
+
+.nv_trips .tours > .tourcard figure figcaption {
+
+  position: absolute;
+
+  left: 0;
+
+  top: 0;
+
+  bottom: 0;
+
+  right: 0;
+
+  padding: 15px;
+
+  margin: 0 0 30px;
+
+  display: flex;
+
+  flex-flow: column nowrap;
+
+  color: white;
+
+}
+
+figcaption h3 a {
+
+    text-decoration: none;
+
+    color: white;
+
+}
+
+.nv_trips .tourpic img{
+
+    width: 100% !important;
+
+    height: 200px !important;
+
+}
+
+.nv_trips .description {
+
+    opacity: 0;
+
+    display: none;
+
+}
+
+.nv_trips .tourprice {
+
+    opacity: 0;
+
+    display: none;
+
+    font-size: .8em;
+
+}
+
+.nv_trips .currency {
+
+    font-weight: 300;
+
+}
+
+.nv_trips .price {
+
+    font-size: 2em;
+
+    font-weight: 300;
+
+}
+
+.nv_trips .tourcard:hover figure figcaption .description,
+
+.nv_trips .tourcard:hover figure figcaption .tourprice {
+
+    display: block;
+
+    opacity: 1;
+
+}
+
+
+
+.nv_trips .trip_dash_box{
+
+  border: 1px solid gray;border-radius: 0px 0px 5px 5px;padding: 10px;
+
+  text-align: center;
+
+  margin-bottom: 20px;
+
+}
+
+
+.user_main_div .font-title{
+  font-size: 24px !important;
+}
+
+.top-menu-button:hover {
+    color: #ffffff !important;
+}
+
+
+.mr-2, .mx-2 {
+    margin-right: .5rem!important;
+}
+
+
+
+/*trips gallery css end*/
+
+/*trips detail css */
+
+.nv_trip_detail h1,.nv_trip_detail h2,.nv_trip_detail h3,.nv_trip_detail h4,.nv_trip_detail h5,.nv_trip_detail h6{
+
+    margin: 0!important;
+
+}
+
+.nv_trip_detail .trip_img{
+
+    width: 100% !important;
+
+    height: auto;
+
+}
+
+.nv_trip_detail .band{
+
+    width: 50px;
+
+    height: auto;
+
+    position: absolute;
+
+    z-index: 9;
+
+    left: 13px;
+
+    top: -6px;
+
+}
+
+
+
+.nv_trip_detail .trip_desc {
+
+    text-align: left;
+
+    color: #000;
+
+    font-size: 16px;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+.nv_trip_detail .ticket ul{
+
+    margin: 0 0 2rem 0 !important;
+
+}
+
+.nv_trip_detail .ticket ul li{
+
+    margin: 0.5rem 0 0 0 !important;
+
+}
+
+.nv_trip_detail .ticket ul li {
+
+    display: inline-block;
+
+    background: #efefef;
+
+    padding: 6px 8px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    color: #253d52;
+
+    margin-right: 1px;
+
+}
+
+
+
+.nv_trip_detail .ticket ul li:nth-child(1) {
+
+    background: #F9702D;
+
+    color: #fff;
+
+}
+
+
+
+.nv_trip_detail .featur {
+
+    position: relative;
+
+    overflow: hidden;
+
+    padding-bottom: 10px;
+
+}
+
+
+
+.nv_trip_detail .featur h4 {
+
+    font-size: 18px;
+
+    color: #253d52;
+
+}
+
+
+
+.nv_trip_detail .featur span {
+
+    display: inline-block;
+
+    color: #253d52;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+}
+
+
+
+.btn-nv-trip{
+
+    background: #ff7d2c !important;
+
+    text-transform: uppercase !important;
+
+    color: #f4f4f2 !important;
+
+    transition: all .2s !important;
+
+    border-width: 0px !important;
+
+    border-style: solid !important;
+
+    border-color: #f4f4f2 !important;
+
+    border-radius: 2px !important;
+
+    -webkit-transition: all .2s !important;
+
+    -moz-transition: all .2s !important;
+
+    -ms-transition: all .2s !important;
+
+    -o-transition: all .2s !important;
+
+    -webkit-border-radius: 2px !important;
+
+    padding: 11px 23px !important;
+
+    line-height: 16px !important;
+
+    font-size: 13px !important;
+
+    box-shadow: inset 0px 1px 0px #ffffff, 0px 3px 0px #f4f4f2, 1px 5px 5px 3px rgba(0, 0, 0, 0.3) !important;
+
+    -webkit-box-shadow: inset 0px 1px 0px #ffffff, 0px 3px 0px #f4f4f2, 1px 5px 5px 3px rgba(0, 0, 0, 0.3);
+
+    -moz-box-shadow: inset 0px 1px 0px #ffffff, 0px 3px 0px #f4f4f2, 1px 5px 5px 3px rgba(0, 0, 0, 0.3);
+
+    font-weight: 700 !important;
+
+    letter-spacing: 0px !important;
+
+    text-align: center !important;
+
+    cursor: pointer !important;
+
+    margin: 5px 0 !important;
+
+    text-decoration: none !important;
+
+}
+
+
+
+.btn-nv-trip:hover{
+
+  /*background: #404040 !important;*/
+
+  background: #ff7d2c !important;
+
+  color: #f4f4f2 !important;
+
+  background-image: -webkit-gradient( linear, left bottom, left top, from( #dd3333 ), to( #ff7d2c ) ) !important;
+
+  background-image: linear-gradient( to top, #dd3333, #ff7d2c ) !important;
+
+  background-image: -webkit-linear-gradient( to top, #dd3333, #ff7d2c ) !important;
+
+  background-image: -moz-linear-gradient( to top, #dd3333, #ff7d2c ) !important;
+
+  background-image: -ms-linear-gradient( to top, #dd3333, #ff7d2c ) !important;
+
+  background-image: -o-linear-gradient( to top, #dd3333, #ff7d2c ) !important;
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff7d2c, endColorstr=#dd3333);
+
+  border-color: #f4f4f2 !important;
+
+}
+
+
+
+
+
+.blackHeader{
+
+  color: #fff;
+
+  background: #000;
+
+  padding: 10px 10px !important;
+
+  position: relative;
+
+  font-size: 18px;
+
+}
+
+
+
+.right-side .nump{
+
+  font-size: 13px;
+
+  font-weight: normal;
+
+}
+
+.right-side-box{
+
+  background: #fff; 
+
+  padding: 10px;
+
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.16);
+
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.16);
+
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.16);
+
+
+
+}
+
+.right-side .short-note{
+
+  font-size: 10px;
+
+}
+
+
+
+/*trips detail css end*/
+
+
+
+
+
+
+
+/* Stripe Css start*/
+
+
+
+.StripeElement {
+
+  box-sizing: border-box;
+
+  height: 40px;
+
+  padding: 10px 12px;
+
+  border: 1px solid transparent;
+
+  border-radius: 4px;
+
+  background-color: white;
+
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+
+  -webkit-transition: box-shadow 150ms ease;
+
+  transition: box-shadow 150ms ease;
+
+}
+
+
+
+.StripeElement--focus {
+
+  box-shadow: 0 1px 3px 0 #cfd7df;
+
+}
+
+
+
+.StripeElement--invalid {
+
+  border-color: #fa755a;
+
+}
+
+
+
+.StripeElement--webkit-autofill {
+
+  background-color: #fefde5 !important;
+
+}
+
+
+
+#card-errors {
+
+    height: 20px;
+
+    padding: 4px 0;
+
+    color: #fa755a;
+
+}
+
+
+
+/* Stripe Css end*/
+
+
+
+
+
+/*common css*/
+
+.user_main_div .pdl-0{
+
+  padding-left: 0px !important;
+
+}
+
+.user_main_div .pdr-0{
+
+  padding-right: 0px !important;
+
+}
+
+
+
+.user_main_div table{
+
+  margin: 0 !important;
+
+}
+
+
+
+.user_main_div .form-control {
+
+    display: block;
+
+    width: 100%;
+
+    height: 40px;
+
+    padding: 6px 12px;
+
+    font-size: 14px;
+
+    line-height: 1.42857143;
+
+    color: #555 !important;
+
+    background-color: #fff !important;
+
+    background-image: none !important;
+
+    border: 1px solid #ccc !important;
+
+    border-radius: 4px !important;
+
+}
+
+
+
+.user_main_div .form-control:focus {
+
+    border-color: #FA732D !important;
+
+    outline: 0;
+
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6) !important;
+
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6) !important;
+
+}
+
+
+
+.user_main_div textarea.form-control {
+
+  height: auto;
+
+}
+
+
+
+/*common css end*/
+
+
+
+
+
+
+
+/*User page end*/
+
+
+
