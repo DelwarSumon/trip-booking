@@ -234,6 +234,7 @@
                 }
 
                 $zcdata_Js = $Nzoho->updateRecords($trips->crm_id, array($z_up), "Products");
+                // print_r($zcdata_Js);
             
                 $update =  $wpdb->update( $tb_trips_tbl,$tp_up,array( 'id' => $trips->id));
                 
@@ -565,6 +566,7 @@ Get ready for the time of your life! </p>';
         );
 
         $zb_inv = $ZohoBooks->createInvoiceInZbook($items, $zb_ins);
+        // print_r($zb_inv);
         
         if(isset($zb_inv->invoice->invoice_id)){
             $invoice_id = $zb_inv->invoice->invoice_id;
@@ -589,9 +591,11 @@ Get ready for the time of your life! </p>';
                 ),
             );
             $zb_pay = $ZohoBooks->createPayment($zb_pay_ins);
+            // print_r($zb_pay);
             
             $zcdata_Js = $Nzoho->insertRecordsPO(array($data), "Trip_Bookings");
             $zcdata = json_decode($zcdata_Js);
+            // print_r($zcdata_Js);
             
             if(isset($zcdata->data[0]->details->id)){
                 $Current_Trip_Workflow_DateTime = date("Y-m-d H:i:s");
@@ -627,6 +631,7 @@ Get ready for the time of your life! </p>';
 
 
                 $zcdata_Js = $Nzoho->upsertRecords($condata, "Contacts");
+                // print_r($zcdata_Js);
                 
             }
         
